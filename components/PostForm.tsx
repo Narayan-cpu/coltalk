@@ -8,6 +8,10 @@ export default function PostForm({ onNewPost }: { onNewPost: () => void }) {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!content.trim()) {
+      alert("Post content cannot be empty.");
+      return;
+    }
     await axios.post("/api/posts", { content, authorId: "123" });
     setContent("");
     onNewPost(); // Trigger post refresh
