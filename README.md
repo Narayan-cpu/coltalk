@@ -5,7 +5,6 @@ Welcome to **ColTalk**, the app where *Chaos Meets Creativity!* 🌀 Why settle 
 💬 **Our Motto**: "Censorship is overrated, and nonsense deserves a mic!" 🎤
 
 ---
-
 ## 🚀 Getting Started
 
 Getting ColTalk up and running is easier than scrolling through your social feed! Here’s how you can unleash the randomness:
